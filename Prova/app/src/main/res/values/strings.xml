@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProvaLincon</string>
+    <string name="taff_bank">TafféBank</string>
+    <string name="nomenome">Nome:</string>
+    <string name="data">data\n</string>
+</resources>

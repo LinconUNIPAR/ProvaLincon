@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5412A0E0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:fontFamily="serif"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TafféBank"
+        android:textAlignment="center"
+        android:textColor="#E7E0E0" />
+
+    <TextView
+        android:id="@+id/cartaocredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#05EB0E"
+        android:linksClickable="true"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Cartão de Crédito" />
+
+    <TextView
+        android:id="@+id/cartaodebito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#0FF219"
+        android:linksClickable="true"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#521F1B1B"
+        android:text="Cartão de Débito" />
+
+    <TextView
+        android:id="@+id/titulotrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Transações"
+        android:textAlignment="center"
+        android:textColor="#E2D6D6" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/transacoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/tvDataAtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Data Atual:" />
+
+    <TextView
+        android:id="@+id/transacoesfeitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Quantidade de Transações Feitas: 0" />
+
+</LinearLayout>

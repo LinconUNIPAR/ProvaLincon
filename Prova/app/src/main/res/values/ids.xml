@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvAluno" type="id">tvaluno</item>
+    <item name="credito" type="id">credito</item>
+    <item name="recyclerViewAlunos" type="id">recicleview</item>
+    <item name="recyclerViewTaffe" type="id">Taffe</item>
+</resources>
